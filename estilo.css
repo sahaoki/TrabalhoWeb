@@ -1,0 +1,77 @@
+/* Limpando formatações */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Formatação Genérica */
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    background-color:rgb(209, 140, 229);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Menu de Navegação */
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(159, 48, 233);
+    font-size: 17px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(115, 0, 247);
+}
+
+/* Seções */
+
+section{
+    margin-top: 25px;
+}
+
+/* Formulário de contato */
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button{
+    background-color: rgb(251, 232, 255);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: blueviolet;
+}
+
